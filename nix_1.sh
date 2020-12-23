@@ -6,4 +6,5 @@ echo ' squeezing  MultiLineBlankText file ' cat -s MultiLineBlankText.txt
 echo ' another test line of text ....... spaces                 spaces             '
 echo ' remove all blank lines == cat MultiLineBlankText.txt | tr -s '\n' ' cat MultiLineBlankText.txt | tr -s '\n'
 echo ' in a Python module - identify TABS with cat == cat -T someFile.py'
-echo 'def my_func():' >> someFile.py 
+echo 'def my_func():' >> someFile.py
+echo 'cat -T someFile.py' cat -T someFile.py

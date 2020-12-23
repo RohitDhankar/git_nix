@@ -11,4 +11,11 @@ Line4
 ................................................ stiil more 
 
 #
+$ cat -T someFile.py
+
+def my_func():
+^I^Ithis_var_2Tabs = 'this string 2 tabs indented'
+^I^I^Ithis_var_3Tabs = 'this string 3 tabs indented'
+
+# The == ^I highlights the TABS in the .py File 
 
