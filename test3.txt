@@ -1,0 +1,1 @@
+ so as seen above we can - write text from STDIN o a text file - without the - cat ?
