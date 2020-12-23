@@ -3,3 +3,4 @@ echo 'more lines of some dummy strings through stdin to  text file - through cat
 echo 'more lines of some dummy strings through stdin to  text file - through cat ' > test2.txt
 echo ' so as seen above we can - write text from STDIN to a text file - without the - cat ?' > test3.txt
 echo ' squeezing  MultiLineBlankText file ' cat -s MultiLineBlankText.txt
+echo ' another test line of text ....... spaces                 spaces             '
