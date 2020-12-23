@@ -19,3 +19,35 @@ def my_func():
 
 # The == ^I highlights the TABS in the .py File 
 
+#
+ script -t 2> script_timings.log -a script_output.session
+Script started, file is script_output.session
+
+$ echo ' hi this is a scripted session '
+ hi this is a scripted session 
+
+$ echo ' we thus record the script for this terminal session for replay '
+ we thus record the script for this terminal session for replay 
+
+$ exit
+exit
+Script done, file is script_output.session
+
+$ 
+$ ls -ltr
+total 44
+-rw-r--r-- 1 dhankar dhankar   34 Dec 23 20:19 README.md
+-rw-r--r-- 1 dhankar dhankar  104 Dec 23 20:43 test.txt
+-rw-r--r-- 1 dhankar dhankar  162 Dec 23 21:38 MultiLineBlankText.txt
+-rw-r--r-- 1 dhankar dhankar   76 Dec 23 22:14 test1.txt
+-rw-r--r-- 1 dhankar dhankar   86 Dec 23 22:14 test3.txt
+-rw-r--r-- 1 dhankar dhankar   76 Dec 23 22:14 test2.txt
+-rw-r--r-- 1 dhankar dhankar  131 Dec 23 22:14 someFile.py
+-rw-r--r-- 1 dhankar dhankar  415 Dec 23 22:28 nix_1.log
+-rwxr-xr-x 1 dhankar dhankar  785 Dec 23 22:31 nix_1.sh
+-rw-r--r-- 1 dhankar dhankar 1639 Dec 23 22:34 script_timings.log
+-rw-r--r-- 1 dhankar dhankar 1286 Dec 23 22:34 script_output.session
+
+# Count the number of lines in that --- script_timings.log -- file 
+$ wc -l script_timings.log
+148 script_timings.log
