@@ -1,3 +1,14 @@
 
 
 https://github.com/RohitDhankar/git_nix.git
+
+$ cat MultiLineBlankText.txt | tr -s '\n'
+this is Line 1
+Line2
+Line3
+Line4
+....................... more here 
+................................................ stiil more 
+
+#
+
